@@ -1,0 +1,14 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+}
+
+.not-found-img {
+  width: 500px;
+}
+
+.error-msg {
+  margin-bottom: 10px;
+}

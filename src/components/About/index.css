@@ -1,0 +1,25 @@
+.sm-about-background {
+  width: 300px;
+}
+
+.lg-about-background {
+  display: none;
+}
+
+.about-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .lg-about-background {
+    display: flex;
+    width: 700px;
+  }
+
+  .sm-about-background {
+    display: none;
+  }
+}
